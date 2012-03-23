@@ -1,0 +1,18 @@
+{
+	"author": "Fred Chien <cfsghost@gmail.com>",
+	"name": "AppHouse",
+	"description": "A hosting platform for node.js application",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/cfsghost/AppHouse.git"
+	},
+	"engines": {
+		"node": "~0.6.8"
+	},
+	"dependencies": {
+		"config": ">= 0.4.10",
+	},
+	"devDependencies": {},
+	"optionalDependencies": {}
+}
