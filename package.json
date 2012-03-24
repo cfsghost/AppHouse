@@ -12,6 +12,7 @@
 	},
 	"dependencies": {
 		"config": ">= 0.4.10",
+		"daemon": ">= 0.4.1"
 	},
 	"devDependencies": {},
 	"optionalDependencies": {}
