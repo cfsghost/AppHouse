@@ -10,6 +10,7 @@ var appMgr = new AppHouse.AppManager(config.path.app);
 appMgr.runAll();
 
 http.createServer(function (req, res) {
+	console.log(req.header);
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end('AppHouse Hosting Platform\n');
 }).listen(8000);
