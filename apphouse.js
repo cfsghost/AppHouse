@@ -9,7 +9,7 @@ config.path.app = config.path.app || __dirname + '/apps'
 var appMgr = new AppHouse.AppManager(config.path.app);
 appMgr.runAll();
 
-http.createServer(function (request, response) {
-    response.writeHead(200, {'Content-Type': 'text/plain'});
-    response.end('AppHouse Hosting Platform\n');
+http.createServer(function (req, res) {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.end('AppHouse Hosting Platform\n');
 }).listen(8000);
