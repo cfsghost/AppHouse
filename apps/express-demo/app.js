@@ -3,12 +3,8 @@
  * Module dependencies.
  */
 
-console.log(111);
-
 var express = require('express')
   , routes = require('./routes');
-
-console.log(222);
 
 var app = module.exports = express.createServer();
 
