@@ -9,5 +9,5 @@ var appMgr = new AppHouse.AppManager(config.path.app);
 appMgr.runAll();
 
 /* Initializing Router */
-var router = new AppHouse.Router();
+var router = new AppHouse.Router(appMgr);
 router.run();

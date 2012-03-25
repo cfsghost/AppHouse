@@ -12,6 +12,7 @@
 	},
 	"dependencies": {
 		"config": ">= 0.4.10",
+		"http-proxy": ">= 0.8.0",
 		"daemon": ">= 0.4.1"
 	},
 	"devDependencies": {},
