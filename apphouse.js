@@ -13,7 +13,7 @@ var router = new AppHouse.Router(appMgr);
 router.run();
 
 process.on('uncaughtException', function(err) {
-	console.log(err.stack);
+	console.err(err.stack);
 
 	/* Stop all application */
 	appMgr.stopAll();
