@@ -43,6 +43,9 @@ There is no need modifying your application for AppHouse, just put your applicat
 
     *Note: AppHouse will run `app.js` in application folder.*
 
+License
+-
+Licensed under the GPL-2.0
 Authors
 -
 Copyright(c) 2012 Fred Chien <<fred@mandice.com>>
