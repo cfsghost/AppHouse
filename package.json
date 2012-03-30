@@ -3,6 +3,7 @@
 	"name": "AppHouse",
 	"description": "A hosting platform for node.js application",
 	"version": "0.0.1",
+	"homepage": "https://github.com/cfsghost/AppHouse",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/cfsghost/AppHouse.git"
