@@ -43,6 +43,11 @@ There is no need modifying your application for AppHouse, just put your applicat
 
     *Note: AppHouse will run `app.js` in application folder.*
 
+Management Tools
+-
+AppHouse doesn't have tools to manage applications and service, but we've created a new project to do this job:
+
+https://github.com/cfsghost/AppHouse-Manager
 License
 -
 Licensed under the GPL-2.0
