@@ -6,7 +6,7 @@ var path = require('path');
 config.path.app = config.path.app || path.join(__dirname, 'apps');
 
 /* Initializing Application Manager */
-var appMgr = new AppHouse.AppManager(config.path.app);
+var appMgr = new AppHouse.AppManager(config.path.app, config.admin.tools);
 appMgr.runAll();
 
 /* Initializing Router */

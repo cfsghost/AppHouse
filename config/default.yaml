@@ -1,2 +1,6 @@
 path:
     app: ''
+
+admin:
+    tools: 
+        - 'AppHouse-Manager'
