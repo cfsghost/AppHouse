@@ -4,9 +4,10 @@ var path = require('path');
 
 /* Config */
 config.path.app = config.path.app || path.join(__dirname, 'apps');
+config.path.log = config.path.log || path.join(__dirname, 'logs');
 
 /* Initializing Application Manager */
-var appMgr = new AppHouse.AppManager(config.path.app, config.admin.tools);
+var appMgr = new AppHouse.AppManager(config.path.app, config.path.log, config.admin.tools);
 appMgr.runAll();
 
 /* Initializing Router */

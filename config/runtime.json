@@ -1,5 +1,6 @@
 {
   "path": {
-    "app": "/home/fred/AppHouse/apps"
+    "app": "/home/fred/AppHouse/apps",
+    "log": "/home/fred/AppHouse/logs"
   }
 }

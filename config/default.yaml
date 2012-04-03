@@ -1,5 +1,6 @@
 path:
     app: ''
+    log: ''
 
 admin:
     tools: 
