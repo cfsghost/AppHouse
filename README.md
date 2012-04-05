@@ -43,6 +43,20 @@ There is no need modifying your application for AppHouse, just put your applicat
 
     *Note: AppHouse will run `app.js` in application folder.*
 
+Application Settings
+-
+You can modify `apphouse.cfg` in the application directory, it's formatted using JSON(JavaScript Object Notation).
+
+Here is options:
+
+* `domains` : set domains for application. (An application can have multiple domain)
+
+    Example:
+    
+        domains: [ "test1.example.com", "test2.example" ]
+
+* `instances` : set number of instances for application. (Default: 1)
+
 Management Tools
 -
 AppHouse doesn't have tools to manage applications and service, but we've created a new project to do this job:
