@@ -5,6 +5,7 @@ A hosting platform for node.js application.
 Feature
 -
 * Support all node.js applications.
+* Support multi-instance for each application.
 * Support sandbox, stand-alone instance to isolate each application.
 * Auto-restart application when it crashes.
 * Support virtual host
