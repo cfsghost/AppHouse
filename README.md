@@ -54,7 +54,7 @@ Here is options:
 
     Example:
     
-        domains: [ "test1.example.com", "test2.example" ]
+        domains: [ "test1.example.com", "test2.example.com" ]
 
 * `instances` : set number of instances for application. (Default: 1)
 
