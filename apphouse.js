@@ -22,3 +22,10 @@ process.on('uncaughtException', function(err) {
 		process.exit(1);
 	});
 });
+
+process.on('SIGHUP', function() {
+	/* Stop all application */
+	appMgr.stopAll(function() {
+		process.exit(1);
+	});
+})
