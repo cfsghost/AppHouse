@@ -18,7 +18,7 @@ process.on('uncaughtException', function(err) {
 	console.err(err.stack);
 
 	/* Stop all application */
-	appMgr.stopAll();
-
-	process.exit(1);
+	appMgr.stopAll(function() {
+		process.exit(1);
+	});
 });
